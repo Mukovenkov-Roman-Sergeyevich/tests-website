@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --duo-green: #58cc02;
+  --duo-green-shadow: #46a302;
+  --duo-blue: #1cb0f6;
+  --duo-blue-shadow: #1899d6;
+  --duo-gray: #e5e5e5;
+  --duo-text: #4b4b4b;
+  --bg-color: #f7f7f7;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--bg-color);
+  margin: 0;
+  color: var(--duo-text);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--duo-gray);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--duo-text);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  color: var(--duo-blue);
+}
+
+.card {
+  background: white;
+  border: 2px solid var(--duo-gray);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+  color: #3c3c3c;
+  margin-top: 0;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid var(--duo-gray);
+  border-radius: 12px;
+  font-size: 16px;
+  background: #fdfdfd;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--duo-blue);
+  outline: none;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-radius: 16px;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  transition: transform 0.1s;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-family: 'Nunito', sans-serif; 
+  text-decoration: none
+}
+
+.btn:active {
+  transform: translateY(4px);
+  box-shadow: none !important;
+}
+
+.btn-primary {
+  background-color: var(--duo-green);
+  box-shadow: 0 4px 0 var(--duo-green-shadow);
+}
+
+.btn-secondary {
+  background-color: var(--duo-blue);
+  box-shadow: 0 4px 0 var(--duo-blue-shadow);
+}
+
+.btn-outline {
+  background-color: white;
+  border: 2px solid var(--duo-gray);
+  color: var(--duo-text);
+  box-shadow: 0 4px 0 var(--duo-gray);
+}
+
+.option-btn {
+  background: white;
+  border: 2px solid var(--duo-gray);
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: left;
+  font-weight: 700;
+  width: 100%;
+  box-shadow: 0 2px 0 var(--duo-gray);
+  transition: all 0.2s;
+    font-family: 'Nunito', sans-serif; 
+  text-decoration: none
+}
+
+.option-btn:hover {
+  background-color: #e5f6ff;
+  border-color: var(--duo-blue);
+}
+
+.result-badge {
+  font-size: 50px;
+  text-align: center;
+  display: block;
+  margin: 20px 0;
+}
