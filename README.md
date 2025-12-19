@@ -10,6 +10,11 @@
 *   **Security:** HTTPS (Self-signed certificates), Cookie-based Auth
 *   **Database:** JSON files
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9c600281-a83a-4672-83e3-a9f1a75d0a39" width="300" />
+  <img src="https://github.com/user-attachments/assets/a9a10490-d569-43f4-b6b8-cdc264143afb" width="300" />
+</p>
+
 ## 🚀 Инструкция по запуску
 
 Понадобятся установленные **Node.js** и **Python**.
@@ -62,9 +67,8 @@ cd tests-website
     Приложение будет доступно по адресу: `http://localhost:5173`.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9c600281-a83a-4672-83e3-a9f1a75d0a39" width="300" />
-  <img src="https://github.com/user-attachments/assets/a9a10490-d569-43f4-b6b8-cdc264143afb" width="300" />
   <img src="https://github.com/user-attachments/assets/f87da6bd-30f9-4927-8bb8-41827fe373b5" width="300" />
+  <img src="https://github.com/user-attachments/assets/e8334df8-ab8c-4b4b-9681-b0471401ba9a" width="300" />
 </p>
 
 ## 🏆 Функциональность
@@ -75,7 +79,6 @@ cd tests-website
 5.  **Безопасность:** Все запросы идут через защищенное соединение (HTTPS), авторизация через Secure HttpOnly Cookies.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e8334df8-ab8c-4b4b-9681-b0471401ba9a" width="300" />
   <img src="https://github.com/user-attachments/assets/9cf945ad-a1a5-4ccd-a76d-8852f5e4f2e2" width="250" />
   <img src="https://github.com/user-attachments/assets/b586ea92-9d8b-4f92-b8e6-ac6d8d5b0e31" width="400" />
 </p>
