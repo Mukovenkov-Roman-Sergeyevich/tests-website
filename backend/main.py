@@ -26,7 +26,7 @@ def save_json(filename, data):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-users_db = load_json('users.json')
+users_db = load_json('users.json', {"admin": "123"})
 quizzes_db = load_json('quizzes.json', [])
 results_db = load_json('results.json', [])
 tokens = {}
